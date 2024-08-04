@@ -2,8 +2,10 @@
 local RunService = game:GetService("RunService")
 
 local runContext: "server" | "client" = if RunService:IsServer() then "server" else "client"
-local remotes = script.remotes
 local currentId = 11111
+local remotes = Instance.new("Folder")
+remotes.Name = "remotes"
+remotes.Parent = script
 
 type event = {
 	sendClient: (client: Player, ...any) -> (),
