@@ -1,8 +1,12 @@
 [package]
 name = "sennoza/line"
-version = "0.0.2"
+description = "A simply stupid remote wrapper for Roblox"
+version = "0.0.3"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
+authors = [
+	"Sennoza"
+]
 exclude = [
 	"docs",
 	"media",
