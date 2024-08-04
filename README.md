@@ -53,7 +53,7 @@ Line.someNamespace.someEvent.sendServer("Hello!")
 ```
 ---
 
-Line uses additive instance naming (foolishly) so your remote hierachy can be as many namespaces deep as you wish.
+Line uses additive instance naming <sub>(foolishly)</sub> so your remote hierachy can be as many namespaces deep as you wish.
 ---
 Simple API:
 ```lua
