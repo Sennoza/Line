@@ -10,7 +10,7 @@ Installation:
 -
 #### Import with wally
 ```toml
-Line = "sennoza/line@0.0.2"
+Line = "sennoza/line@0.0.4"
 ```
 ---
 #### Import with Roblox
