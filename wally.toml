@@ -1,6 +1,6 @@
 [package]
 name = "sennoza/line"
-version = "0.0.5-test"
+version = "0.0.2"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 exclude = [
