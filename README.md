@@ -10,10 +10,11 @@
 Usage:
 *Place "Line.luau" into ReplicatedStorage*
 ```lua
--- Module in Replicated Storage"
+-- Module in Replicated Storage
 local Line = require(game.ReplicatedStorage.Line)
 
-return { -- Return remote hierarchy table
+ -- Return remote hierarchy table
+return {
 	someNamespace = {
 		someEvent = Line.event()
 	},
