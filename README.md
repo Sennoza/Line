@@ -1,9 +1,9 @@
 <div align="center">
 	<img align="center" src="./media/lineLogo.png" width=300>
 
-### Line
+# Line
 ---
-##### A very simple and undoubtedly very stupid remote wrapper for Roblox.
+### A very simple and undoubtedly very stupid remote wrapper for Roblox.
 ---
 </div>
 
