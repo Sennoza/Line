@@ -11,9 +11,9 @@ Usage:
 
 *Place "Line.luau" into ReplicatedStorage*
 
-*Create a second module to store your remote layout*
+*Create a second module in ReplicatedStorage to store your remote layout*
 ```lua
--- Module in Replicated Storage
+-- Module in ReplicatedStorage
 local Line = require(game.ReplicatedStorage.Line)
 
  -- Return remote hierarchy table
