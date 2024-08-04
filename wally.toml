@@ -1,9 +1,12 @@
 [package]
 name = "sennoza/line"
-version = "0.0.1"
+version = "0.0.5-test"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
-exclude = ["**"]
-include = ["src", "default.project.json", "wally.lock", "wally.toml"]
+exclude = [
+	"docs",
+	"media",
+	"Packages",
+]
 
 [dependencies]
