@@ -2,16 +2,25 @@
 	<img align="center" src="./media/lineLogo.png" width=300>
 
 # Line
----
 ### A very simple and undoubtedly very stupid remote wrapper for Roblox.
 ---
 </div>
 
+Installation:
+-
+#### Import with wally
+```toml
+Line = "sennoza/line@0.0.2"
+```
+---
+#### Import with Roblox
+Place "Line.luau" into ReplicatedStorage
+
+---
+
 Usage:
-
-*Place "Line.luau" into ReplicatedStorage*
-
-*Create a second module in ReplicatedStorage to store your remote layout*
+-
+Create a second module in ReplicatedStorage to store your remote layout
 ```lua
 -- Module in ReplicatedStorage
 local Line = require(game.ReplicatedStorage.Line)
