@@ -23,7 +23,7 @@ return {
 	},
 
 	someOtherNamespace = {
-		someEvent = line.event()
+		someEvent = Line.event()
 	},
 }
 ```
@@ -40,7 +40,7 @@ end)
 ```lua
 -- Client Script
 local Line = require(game.ReplicatedStorage.Line)
-line.someNamespace.someEvent.sendServer("Hello!")
+Line.someNamespace.someEvent.sendServer("Hello!")
 ```
 ---
 
