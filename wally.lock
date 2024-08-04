@@ -4,5 +4,5 @@ registry = "test"
 
 [[package]]
 name = "sennoza/line"
-version = "0.0.1-test"
+version = "0.0.2-test"
 dependencies = []
