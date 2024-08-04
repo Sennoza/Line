@@ -45,3 +45,19 @@ line.someNamespace.someEvent.sendServer("Hello!")
 ---
 
 Line uses additive instance naming (foolishly) so your remote hierachy can be as many namespaces deep as you wish.
+---
+Simple API:
+```lua
+-- Server
+event.sendClient(client: Player, ...any)
+event.sendAllClients(...any)
+event.sendClientList(list: {Player}, ...any)
+
+-- Client
+event.sendServer(...any)
+
+-- Shared
+event.listen(callback: (...any) -> ())
+event.once(callback: (...any) -> ())
+event.wait() -> (...any)
+```
