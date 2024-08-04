@@ -8,6 +8,7 @@
 </div>
 
 Usage:
+
 *Place "Line.luau" into ReplicatedStorage*
 ```lua
 -- Module in Replicated Storage
